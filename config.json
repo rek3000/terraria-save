@@ -22,7 +22,7 @@
   "WindowBorderless": true,
   "DisplayWidth": 1366,
   "DisplayHeight": 768,
-  "GraphicsQuality": 2,
+  "GraphicsQuality": 3,
   "BackgroundEnabled": true,
   "FrameSkipMode": 2,
   "LightingMode": 0,
@@ -52,7 +52,7 @@
   "SettingsEnabled_AutoReuseAllItems": false,
   "UseStormEffect": true,
   "UseHeatDistortion": false,
-  "WaveQuality": 2,
+  "WaveQuality": 0,
   "Support4K": true,
   "MouseColor": {
     "R": 255,
