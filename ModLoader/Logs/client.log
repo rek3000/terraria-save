@@ -1,0 +1,17 @@
+﻿[09:06:40] [1/INFO] [tML]: Starting tModLoader v0.11.8.9 Windows client (11/10/2022)
+[09:06:40] [1/INFO] [tML]: Running on NetFramework 4.8
+[09:06:40] [1/INFO] [tML]: Executable: C:\Users\showm\Documents\Games\TML\TML 1.3\tModLoader.exe
+[09:06:40] [1/INFO] [tML]: Working Directory: C:\Users\showm\Documents\Games\TML\TML 1.3
+[09:06:40] [1/INFO] [tML]: Launch Parameters: 
+[09:06:40] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[09:06:40] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[09:06:40] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[09:06:41] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[09:06:43] [1/INFO] [tML]: Checking GOG or manual installation...
+[09:06:43] [1/FATAL] [tML]: ..\Terraria\Terraria.exe is not the unmodified Terraria executable.
+
+GOG installs must have the unmodified Terraria executable to function.
+
+If you patched the .exe, you can create a copy of the original exe and name it "Terraria_v<VERSION>.exe"
+
+
