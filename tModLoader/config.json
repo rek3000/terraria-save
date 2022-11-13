@@ -92,7 +92,7 @@
   "ShowModMenuNotifications": true,
   "ShowNewUpdatedModsInfo": true,
   "LastSelectedModMenu": "Terraria/MenutML",
-  "KnownMenuThemes": "Terraria/MenutML,Terraria/MenuJourneysEnd,Terraria/MenuOldVanilla",
+  "KnownMenuThemes": "Terraria/MenutML,Terraria/MenuJourneysEnd,Terraria/MenuOldVanilla,CalamityMod/CalamityMainMenu",
   "BossBarStyle": "Terraria/DefaultBossBarStyle",
   "SeenFirstLaunchModderWelcomeMessage": false,
   "LastLaunchedTModLoaderVersion": "2022.9.47.13",

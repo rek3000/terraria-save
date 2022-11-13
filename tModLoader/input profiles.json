@@ -539,8 +539,8 @@
       "SmartSelect": ["LeftShift"],
       "SmartCursor": ["LeftControl"],
       "QuickMount": ["R"],
-      "QuickHeal": ["H"],
-      "QuickMana": ["J"],
+      "QuickHeal": ["F"],
+      "QuickMana": ["G"],
       "QuickBuff": ["B"],
       "MapZoomIn": ["Add"],
       "MapZoomOut": ["Subtract"],
@@ -561,8 +561,9 @@
       "ViewZoomIn": ["OemPlus"],
       "ViewZoomOut": ["OemMinus"],
       "ToggleCreativeMenu": ["C"],
-      "CalamityMod: Adrenaline Mode": ["OemQuotes"],
-      "RecipeBrowser: Toggle Recipe Browser": ["OemQuestion"]
+      "RecipeBrowser: Toggle Recipe Browser": ["OemQuestion"],
+      "CalamityMod: Rage Mode": ["Z"],
+      "CalamityMod: Adrenaline Mode": ["X"]
     },
     "Gamepad": 
     {

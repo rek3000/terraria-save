@@ -1,17 +1,908 @@
-﻿[09:06:40] [1/INFO] [tML]: Starting tModLoader v0.11.8.9 Windows client (11/10/2022)
-[09:06:40] [1/INFO] [tML]: Running on NetFramework 4.8
-[09:06:40] [1/INFO] [tML]: Executable: C:\Users\showm\Documents\Games\TML\TML 1.3\tModLoader.exe
-[09:06:40] [1/INFO] [tML]: Working Directory: C:\Users\showm\Documents\Games\TML\TML 1.3
-[09:06:40] [1/INFO] [tML]: Launch Parameters: 
-[09:06:40] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[09:06:40] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[09:06:40] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[09:06:41] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
-[09:06:43] [1/INFO] [tML]: Checking GOG or manual installation...
-[09:06:43] [1/FATAL] [tML]: ..\Terraria\Terraria.exe is not the unmodified Terraria executable.
+﻿[19:54:10] [1/INFO] [tML]: Starting tModLoader v0.11.8.9 Windows client (11/10/2022)
+[19:54:11] [1/INFO] [tML]: Running on NetFramework 4.8
+[19:54:11] [1/INFO] [tML]: Executable: C:\Users\showm\Documents\Games\TML\TML 1.3\tModLoader.exe
+[19:54:11] [1/INFO] [tML]: Working Directory: C:\Users\showm\Documents\Games\TML\TML 1.3
+[19:54:11] [1/INFO] [tML]: Launch Parameters: 
+[19:54:11] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[19:54:11] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[19:54:11] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:54:11] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[19:54:11] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[19:54:12] [1/INFO] [tML]: Checking GOG or manual installation...
+[19:54:13] [1/INFO] [tML]: GOG or manual installation OK.
+[19:54:13] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[19:54:18] [1/DEBUG] [Terraria]: Graphics Device: Intel(R) HD Graphics 520 {Width:1366 Height:768 Format:Color AspectRatio:1.778646}
+[19:54:18] [1/DEBUG] [Terraria]: Device Reset, Profile: Reach -> HiDef, Width: 800, Height: 480, Fullscreen: False, Display: \\.\DISPLAY1
+[19:54:29] [1/INFO] [Terraria]: Loaded 1000 vanilla assets
+[19:54:31] [1/INFO] [Terraria]: Loaded 2000 vanilla assets
+[19:54:32] [1/INFO] [Terraria]: Loaded 3000 vanilla assets
+[19:54:32] [1/INFO] [Terraria]: Loaded 4000 vanilla assets
+[19:54:33] [1/INFO] [Terraria]: Loaded 5000 vanilla assets
+[19:54:39] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 800 -> 1280, Height: 480 -> 720, Fullscreen: False -> True, Display: \\.\DISPLAY1
+[19:54:40] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1280 -> 1366, Height: 720 -> 768, Fullscreen: True, Display: \\.\DISPLAY1
+[19:54:46] [8/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:54:46] [8/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[19:54:48] [8/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Mdb, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:54:48] [8/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Pdb, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:54:48] [5/INFO] [Terraria]: JIT loading finished
+[19:54:50] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[19:54:51] [7/INFO] [tML]: Unloading mods
+[19:54:52] [7/INFO] [tML]: Finding Mods...
+[19:54:52] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[19:54:53] [7/INFO] [tML]: Sandboxing: Idglibrary
+[19:54:54] [7/INFO] [tML]: Sandboxing: RecipeBrowser
+[19:54:54] [7/INFO] [tML]: Sandboxing: SubworldLibrary
+[19:54:54] [7/INFO] [tML]: Sandboxing: SGAmod
+[19:54:54] [7/INFO] [tML]: Sandboxing: WMITF
+[19:54:54] [7/INFO] [tML]: Instantiating Mods...
+[19:54:55] [7/DEBUG] [tML]: Assembly Resolve: SGAmod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Idglibrary_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:54:55] [7/DEBUG] [tML]: Assembly Resolve: SGAmod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SubworldLibrary_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:54:55] [7/DEBUG] [tML]: Hook On.Terraria.ModLoader.Mod::AutoloadItem(Type) added by SGAmod_0
+[19:54:55] [7/INFO] [tML]: Initializing: ModLoader (tModLoader) v0.11.8.9
+[19:54:56] [7/INFO] [tML]: Initializing: Idglibrary (Idglib) v3.15
+[19:54:56] [7/DEBUG] [tML]: Assembly Resolve: Idglibrary_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:54:56] [7/DEBUG] [tML]: Assembly Resolve: TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:54:56] [7/WARN] [tML]: Upgraded Reference MonoMod.RuntimeDetour -> Version=19.12.19.1 -> 20.11.16.1
+[19:54:56] [7/DEBUG] [tML]: Hook On.Terraria.Player::KillMe(PlayerDeathReason, double, int, bool) added by Idglibrary_0
+[19:54:56] [7/INFO] [tML]: Initializing: RecipeBrowser (Recipe Browser) v0.8.9.1
+[19:54:56] [7/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[19:54:57] [7/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[19:54:57] [7/INFO] [tML]: Initializing: SubworldLibrary (Subworld Library) v1.1.1
+[19:54:57] [7/DEBUG] [tML]: Assembly Resolve: TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:54:57] [7/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=19.12.19.1 -> 20.11.16.1
+[19:54:57] [7/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by SubworldLibrary_0
+[19:54:57] [7/DEBUG] [tML]: Hook IL.Terraria.WorldGen::UpdateWorld() modified by SubworldLibrary_0
+[19:54:57] [7/DEBUG] [tML]: Hook IL.Terraria.Liquid::Update() modified by SubworldLibrary_0
+[19:54:57] [7/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PreUpdate() modified by SubworldLibrary_0
+[19:54:57] [7/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PostUpdate() modified by SubworldLibrary_0
+[19:54:57] [7/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SubworldLibrary_0
+[19:54:58] [7/DEBUG] [tML]: Hook IL.Terraria.NPC::UpdateNPC_UpdateGravity(out float) modified by SubworldLibrary_0
+[19:54:58] [7/DEBUG] [tML]: Hook IL.Terraria.WorldGen::do_worldGenCallBack(object) modified by SubworldLibrary_0
+[19:54:58] [7/DEBUG] [tML]: Hook IL.Terraria.Player::SavePlayer(PlayerFileData, bool) modified by SubworldLibrary_0
+[19:54:58] [7/DEBUG] [tML]: Hook IL.Terraria.IO.WorldFile::saveWorld(bool, bool) modified by SubworldLibrary_0
+[19:54:58] [7/DEBUG] [tML]: Hook IL.Terraria.ModLoader.IO.WorldIO::Save(string, bool) modified by SubworldLibrary_0
+[19:54:58] [7/DEBUG] [tML]: Hook IL.Terraria.Main::EraseWorld(int) modified by SubworldLibrary_0
+[19:54:58] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by SubworldLibrary_0
+[19:54:59] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBlack(bool) modified by SubworldLibrary_0
+[19:54:59] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBG() modified by SubworldLibrary_0
+[19:54:59] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBackground() modified by SubworldLibrary_0
+[19:55:00] [7/DEBUG] [tML]: Hook IL.Terraria.Main::OldDrawBackground() modified by SubworldLibrary_0
+[19:55:00] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DrawUnderworldBackground(bool) modified by SubworldLibrary_0
+[19:55:00] [7/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateBiomes() modified by SubworldLibrary_0
+[19:55:01] [7/DEBUG] [tML]: Hook IL.Terraria.IngameOptions::Draw(Main, SpriteBatch) modified by SubworldLibrary_0
+[19:55:01] [7/DEBUG] [tML]: Hook IL.Terraria.Lighting::PreRenderPhase() modified by SubworldLibrary_0
+[19:55:01] [7/INFO] [tML]: Initializing: SGAmod (SGAmod: [c/65c281:Path of the Passionate]) v4.0
+[19:55:03] [7/DEBUG] [SGAmod]: SGAmod filepath defined: C:/Users/rek/Documents/My Games/Terraria/ModLoader/SGAmod
+[19:55:03] [7/INFO] [Terraria]: Loaded 6000 vanilla assets
+[19:55:04] [7/WARN] [tML]: Silently Caught Exception: 
+System.UnauthorizedAccessException: Access to the path 'C:/Users/rek/Documents/My Games/Terraria/ModLoader/SGAmod' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at SGAmod.SGAmod.Load() in SGAmod.cs:line 730
+   at Terraria.ModLoader.ModContent.<>c.<Load>b__38_0(Mod mod)
+   at Terraria.ModLoader.ModContent.LoadModContent(CancellationToken token, Action`1 loadAction)
+   at Terraria.ModLoader.ModContent.Load(CancellationToken token)
+   at Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   at Terraria.ModLoader.ModLoader.<>c__DisplayClass42_0.<BeginLoad>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
 
-GOG installs must have the unmodified Terraria executable to function.
+[19:55:04] [7/DEBUG] [SGAmod]: System.UnauthorizedAccessExceptionAccess to the path 'C:/Users/rek/Documents/My Games/Terraria/ModLoader/SGAmod' is denied.
+[19:55:04] [7/DEBUG] [SGAmod]: Directory not able to be made: Nightmare Mode has been unlocked
+[19:55:04] [25/DEBUG] [SGAmod]: Hellion Theme Loaded
+[19:55:04] [7/DEBUG] [SGAmod]: Loading too many ON Detours
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::NinjaDodge() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::CheckDrowning() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::AddBuff(int, int, bool) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::Teleport(Vector2, int, int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::Update(int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::UpdateLifeRegen() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::DropSelectedItem() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::dropItemCheck() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::ItemFitsItemFrame(Item) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::ItemFitsWeaponRack(Item) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::UpdateEquips(int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::StickyMovement() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Player::Hurt(PlayerDeathReason, int, int, bool, bool, bool, int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Main::DrawDust() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Main::DrawProjectiles() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Main::DrawPlayers() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Main::CheckMonoliths() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Main::DrawBuffIcon(int, int, int, int, int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Main::PlaySound(int, int, int, int, float, float) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Main::SetDisplayMode(int, int, bool) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::SpawnMonsterFromGate(Vector2) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.Elements.UICharacterListItem::DrawSelf(SpriteBatch) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.GameInput.PlayerInput::UpdateMainMouse() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.Elements.UIWorldListItem::.ctor(WorldFileData, int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.Elements.UIWorldListItem::DrawSelf(SpriteBatch) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.States.UIWorldSelect::.ctor() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.DataStructures.PlayerDeathReason::ByOther(int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Collision::TileCollision(Vector2, Vector2, int, int, bool, bool, int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.NPC::UpdateNPC(int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.NPC::AddBuff(int, int, bool) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.NPC::StrikeNPC(int, float, int, bool, bool, bool) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.NPC::UpdateNPC_BuffApplyDOTs() added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.UI.ItemSlot::RightClick(Item[], int, int) added by SGAmod_0
+[19:55:04] [7/DEBUG] [SGAmod]: Loading Monogame detours, these can be disabled in configs
+[19:55:04] [7/DEBUG] [tML]: Hook On.Terraria.Main::DoUpdate(GameTime) added by SGAmod_0
+[19:55:05] [7/DEBUG] [tML]: Hook On.Terraria.Main::Draw(GameTime) added by SGAmod_0
+[19:55:05] [7/DEBUG] [SGAmod]: Loading an unhealthy ammount of IL patches
+[19:55:05] [7/DEBUG] [tML]: Hook IL.Terraria.Main::Update(GameTime) modified by SGAmod_0
+[19:55:05] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by SGAmod_0
+[19:55:06] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by SGAmod_0
+[19:55:06] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DrawInterface_Resources_Life() modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DrawInterface_Resources_Breath() modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::AdjTiles() modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::CheckDrowning() modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::StickyMovement() modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateManaRegen() modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::TileInteractionsUse(int, int) modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::ExtractinatorUse(int) modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::CheckMana(Item, int, bool, bool) modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateLifeRegen() modified by SGAmod_0
+[19:55:07] [7/DEBUG] [tML]: Hook IL.Terraria.Item::UpdateItem(int) modified by SGAmod_0
+[19:55:08] [7/DEBUG] [tML]: Hook IL.Terraria.NPC::Collision_LavaCollision() modified by SGAmod_0
+[19:55:08] [7/DEBUG] [tML]: Hook IL.Terraria.NPC::UpdateNPC_BuffApplyDOTs() modified by SGAmod_0
+[19:55:08] [7/DEBUG] [tML]: Hook IL.Terraria.NPC::NPCLoot() modified by SGAmod_0
+[19:55:08] [7/DEBUG] [tML]: Hook IL.Terraria.GameInput.LockOnHelper::Update() modified by SGAmod_0
+[19:55:08] [7/DEBUG] [tML]: Hook IL.Terraria.GameInput.LockOnHelper::SetUP() modified by SGAmod_0
+[19:55:08] [7/DEBUG] [tML]: Hook IL.Terraria.Projectile::AI_099_2() modified by SGAmod_0
+[19:55:09] [7/DEBUG] [tML]: Hook IL.Terraria.GameContent.Events.Sandstorm::EmitDust() modified by SGAmod_0
+[19:55:09] [7/DEBUG] [tML]: Hook IL.Terraria.UI.ItemSorting::Sort(Item[], Int32[]) modified by SGAmod_0
+[19:55:09] [7/DEBUG] [SGAmod]: Loading Subworld lava BG fix, these can be disabled in configs
+[19:55:09] [7/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBackground() modified by SGAmod_0
+[19:55:09] [7/DEBUG] [tML]: Hook IL.Terraria.Main::OldDrawBackground() modified by SGAmod_0
+[19:55:10] [7/DEBUG] [SGAmod]: Doing some Monomod Hook Endpoint nonsense... Jesus christ this is alot of vanilla hacking
+[19:55:10] [7/DEBUG] [tML]: Hook IL.Terraria.ModLoader.PlayerHooks::PostUpdateEquips(Player) modified by SGAmod_0
+[19:55:10] [7/DEBUG] [tML]: Hook IL.Terraria.ModLoader.UI.UIModItem::Draw(SpriteBatch) modified by SGAmod_0
+[19:55:10] [7/DEBUG] [tML]: Hook IL.Terraria.Player::get_ZoneSandstorm() modified by SGAmod_0
+[19:55:10] [7/DEBUG] [tML]: Hook On.Terraria.ModLoader.PlayerHooks::UpdateBadLifeRegen(Player) added by SGAmod_0
+[19:55:10] [7/DEBUG] [tML]: Hook On.Terraria.ModLoader.PlayerHooks::ModifyHitNPC(Player, Item, NPC, ref int, ref float, ref bool) added by SGAmod_0
+[19:55:10] [7/DEBUG] [tML]: Hook On.Terraria.ModLoader.PlayerHooks::ModifyHitNPCWithProj(Projectile, NPC, ref int, ref float, ref bool, ref int) added by SGAmod_0
+[19:55:10] [7/INFO] [tML]: Initializing: WMITF (Which Mod Is This From? (WMITF)) v2.6.2
+[19:55:10] [7/INFO] [tML]: Setting up...
+[19:55:10] [7/INFO] [tML]: Loading: ModLoader (tModLoader) v0.11.8.9
+[19:55:10] [7/INFO] [tML]: Loading: Idglibrary (Idglib) v3.15
+[19:55:10] [7/INFO] [tML]: Loading: RecipeBrowser (Recipe Browser) v0.8.9.1
+[19:55:10] [7/INFO] [tML]: Loading: SubworldLibrary (Subworld Library) v1.1.1
+[19:55:10] [7/INFO] [tML]: Loading: SGAmod (SGAmod: [c/65c281:Path of the Passionate]) v4.0
+[19:55:11] [7/DEBUG] [SGAmod]: Late Changes as being applied early has caused issues with some other mods
+[19:55:11] [7/DEBUG] [tML]: Hook On.Terraria.Item::SetDefaults(int, bool) added by SGAmod_0
+[19:55:11] [7/DEBUG] [tML]: Hook On.Terraria.Projectile::SetDefaults(int) added by SGAmod_0
+[19:55:11] [7/INFO] [tML]: Loading: WMITF (Which Mod Is This From? (WMITF)) v2.6.2
+[19:55:11] [7/INFO] [tML]: RAM usage: 1.1 GB
+[19:55:12] [7/INFO] [tML]: Adding Recipes...
+[19:55:12] [7/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:55:12] [7/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:55:37] [1/DEBUG] [tML]: Process.Start (UseShellExecute = True): "https://discord.gg/aGy34Xw" 
+[19:56:16] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[19:56:59] [30/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/listmods.php
+[19:57:00] [32/DEBUG] [tML]: Web Request: https://www.dropbox.com/s/a1iyu7h5r8ym62m/listmods.php_tModLoader v0.11.8.9_wgn.txt?dl=1
+[19:57:01] [32/DEBUG] [tML]: Web Request: https://www.dropbox.com/s/dl/a1iyu7h5r8ym62m/listmods.php_tModLoader v0.11.8.9_wgn.txt
+[19:57:01] [32/DEBUG] [tML]: Web Request: https://uca18abb0dfe240db8856abd382a.dl.dropboxusercontent.com/cd/0/get/BweqHuW0lIF5Qm5m8Yq0sdS5rb8FIKqxLO63jcGYd5CXviuaGCVvHatB1IhKxOp_eOOd-AOta-FWWBfUZkD3eARE3C-yMMLeEH3BRX3au5TpFnQk19J1T82_tqWTTs6rPmUdepzbbSwiwqXPoNM3O-5Lwb7Ns5MKwzdj1w-yQz0NAtI3q8X9TMjp0j0VfIF0I3I/file?dl=1#
+[19:57:02] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[19:57:03] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ePz4Jfn.png
+[19:57:03] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/LuUgnqb.png
+[19:57:03] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/mmkLHXZ.png
+[19:57:07] [21/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:57:07] [21/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:57:13] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/i6BwPWr.png
+[19:57:13] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/lImjIWb.png
+[19:57:17] [21/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:57:17] [21/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:57:20] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/k6Lfadz.png
+[19:57:20] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/To43dyg.png
+[19:57:20] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/t1Ho4BS.png
+[19:57:23] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Uk4wIlK.png
+[19:57:24] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/EkQZC7H.png
+[19:57:26] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/TcGimsJ.png
+[19:57:27] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/QYvSQ7q.png
+[19:57:27] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/B8tdX9Y.png
+[19:57:28] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/0pg4yEt.png
+[19:57:28] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/LRiFhOI.png
+[19:57:30] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Trma8iK.png
+[19:57:31] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/iJMPp83.png
+[19:57:33] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/YcpUMUy.png
+[19:57:33] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/EjqAo0P.png
+[19:57:34] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/xsTVTHZ.png
+[19:57:34] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/1bAxtuD.png
+[19:57:34] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/hdaCktH.png
+[19:57:34] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/4jKHfGG.png
+[19:57:36] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/6AnJIRX.png
+[19:57:36] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Cef2s0y.png
+[19:57:36] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/AltFITn.png
+[19:57:36] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/8XgTsbY.png
+[19:57:39] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/gCuV8kL.png
+[19:57:39] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/heG8VPp.png
+[19:57:39] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/IazpssG.png
+[19:57:39] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/5V9YKmc.png
+[19:57:39] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/s3WdsTW.png
+[19:57:52] [30/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:57:52] [30/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:57:59] [29/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:57:59] [29/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:58:04] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/zNu1Ecu.png
+[19:58:04] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/pRpZDgR.png
+[19:58:07] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/P4QrXTD.png
+[19:58:08] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/qcC4ESG.png
+[19:58:08] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/67S31SL.png
+[19:58:09] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/KCYsPOk.png
+[19:58:11] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/QsvkeOr.png
+[19:58:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/kopDvwu.png
+[19:58:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/jXdQI11.png
+[19:58:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/jDrQ7EJ.png
+[19:58:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/YszZ0Tv.png
+[19:58:17] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ulXXjjS.png
+[19:58:17] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/EoYOSrd.png
+[19:58:17] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/i5MYdMS.png
+[19:58:18] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Gu9GQOk.png
+[19:58:19] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/AgWCWvg.png
+[19:58:19] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/BAhiOLu.png
+[19:58:21] [7/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:58:21] [7/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:58:38] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/VeinMiner.tmod&tls12=y
+[19:58:38] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/VeinMiner.tmod&tls12=y
+[19:58:38] [31/DEBUG] [tML]: Web Request: https://www.dropbox.com/s/atuyqwf9kswxrgw/VeinMiner.tmod?dl=1
+[19:58:38] [31/DEBUG] [tML]: Web Request: https://www.dropbox.com/s/atuyqwf9kswxrgw/VeinMiner.tmod?dl=1
+[19:58:39] [31/DEBUG] [tML]: Web Request: https://www.dropbox.com/s/dl/atuyqwf9kswxrgw/VeinMiner.tmod
+[19:58:39] [31/DEBUG] [tML]: Web Request: https://uc0d7029eff99a350b94cea6d523.dl.dropboxusercontent.com/cd/0/get/Bwc9V2Ice9LJRZH_GpbvERQ6HdBoeckFixXWyChlFJbJe_w-mqNcBhJwYxVxQReaxaYZ7ZQVl5Z9y38YzsicwIPB3gih1EURoLoEbx7L4aBm5RGsy1_BpGwU6vlYTVsqP-klSJdwc4Er61ZoF1Btn_jYU7VwXUsXLEfHRzjxKWduiw/file?dl=1#
+[19:58:40] [10/INFO] [tML]: Enabling Mod: VeinMiner
+[19:58:40] [10/INFO] [tML]: Upgrading: VeinMiner.tmod
+[19:58:43] [10/INFO] [tML]: Unloading mods
+[19:58:43] [10/INFO] [tML]: Unloading: WMITF (Which Mod Is This From? (WMITF)) v2.6.2
+[19:58:43] [10/INFO] [tML]: Unloading: SGAmod (SGAmod: [c/65c281:Path of the Passionate]) v4.0
+[19:58:43] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.PlayerHooks::PostUpdateEquips(Player) modified by SGAmod_0
+[19:58:43] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.UI.UIModItem::Draw(SpriteBatch) modified by SGAmod_0
+[19:58:43] [10/DEBUG] [tML]: Hook IL.Terraria.Player::get_ZoneSandstorm() modified by SGAmod_0
+[19:58:46] [10/DEBUG] [tML]: Unloaded 42 hooks, 74 detours and 73 native detours from SGAmod
+[19:58:46] [10/INFO] [tML]: Unloading: SubworldLibrary (Subworld Library) v1.1.1
+[19:58:46] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PreUpdate() unmodified by SubworldLibrary_0
+[19:58:46] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PostUpdate() unmodified by SubworldLibrary_0
+[19:58:46] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.IO.WorldIO::Save(string, bool) unmodified by SubworldLibrary_0
+[19:58:46] [10/DEBUG] [tML]: Unloaded 0 hooks, 18 detours and 18 native detours from SubworldLibrary
+[19:58:46] [10/INFO] [tML]: Unloading: RecipeBrowser (Recipe Browser) v0.8.9.1
+[19:58:46] [10/WARN] [tML]: Silently Caught Exception: 
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at RecipeBrowser.RecipeBrowser.<ConcurrentTaskHandler>d__16.MoveNext() in RecipeBrowser.cs:line 194
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.InvokeMoveNext(Object stateMachine)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.Run()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining, Task& currentTask)
+   at System.Threading.Tasks.Task.FinishContinuations()
+   at System.Threading.Tasks.Task.FinishStageThree()
+   at System.Threading.Tasks.Task.CancellationCleanupLogic()
+   at System.Threading.Tasks.Task`1.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Threading.Tasks.Task.DelayPromise.Complete()
+   at System.Threading.Tasks.Task.<>c.<Delay>b__274_0(Object state)
+   at System.Threading.CancellationCallbackInfo.ExecutionContextCallback(Object obj)
+   at System.Threading.CancellationCallbackInfo.ExecuteCallback()
+   at System.Threading.CancellationTokenSource.CancellationCallbackCoreWork(CancellationCallbackCoreWorkArguments args)
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   at System.Threading.CancellationTokenSource.NotifyCancellation(Boolean throwOnFirstException)
+   at System.Threading.CancellationTokenSource.Cancel()
+   at RecipeBrowser.RecipeBrowser.Unload() in RecipeBrowser.cs:line 130
+   at Terraria.ModLoader.Mod.UnloadContent()
+   at Terraria.ModLoader.ModContent.UnloadModContent()
+   at Terraria.ModLoader.ModLoader.do_Unload()
+   at Terraria.ModLoader.ModLoader.Unload()
+   at Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   at Terraria.ModLoader.ModLoader.<>c__DisplayClass42_0.<BeginLoad>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
 
-If you patched the .exe, you can create a copy of the original exe and name it "Terraria_v<VERSION>.exe"
+[19:58:46] [10/DEBUG] [tML]: Unloaded 2 hooks, 2 detours and 2 native detours from RecipeBrowser
+[19:58:46] [10/INFO] [tML]: Unloading: Idglibrary (Idglib) v3.15
+[19:58:46] [10/DEBUG] [tML]: Unloaded 1 hooks, 1 detours and 1 native detours from Idglibrary
+[19:58:46] [10/INFO] [tML]: Unloading: ModLoader (tModLoader) v0.11.8.9
+[19:58:47] [10/WARN] [tML]: Idglibrary not fully unloaded during unload.
+[19:58:47] [10/WARN] [tML]: SubworldLibrary not fully unloaded during unload.
+[19:58:47] [10/WARN] [tML]: SGAmod not fully unloaded during unload.
+[19:58:47] [10/INFO] [tML]: Finding Mods...
+[19:58:47] [10/INFO] [tML]: Sandboxing: Idglibrary
+[19:58:47] [10/INFO] [tML]: Sandboxing: RecipeBrowser
+[19:58:47] [10/INFO] [tML]: Sandboxing: SubworldLibrary
+[19:58:47] [10/INFO] [tML]: Sandboxing: SGAmod
+[19:58:47] [10/INFO] [tML]: Sandboxing: VeinMiner
+[19:58:47] [10/INFO] [tML]: Sandboxing: WMITF
+[19:58:47] [10/INFO] [tML]: Instantiating Mods...
+[19:58:47] [10/DEBUG] [tML]: Hook On.Terraria.ModLoader.Mod::AutoloadItem(Type) added by SGAmod_0
+[19:58:47] [10/INFO] [tML]: Initializing: ModLoader (tModLoader) v0.11.8.9
+[19:58:47] [10/INFO] [tML]: Initializing: Idglibrary (Idglib) v3.15
+[19:58:47] [10/DEBUG] [tML]: Hook On.Terraria.Player::KillMe(PlayerDeathReason, double, int, bool) added by Idglibrary_0
+[19:58:48] [10/INFO] [tML]: Initializing: RecipeBrowser (Recipe Browser) v0.8.9.1
+[19:58:48] [10/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[19:58:48] [10/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[19:58:48] [10/INFO] [tML]: Initializing: SubworldLibrary (Subworld Library) v1.1.1
+[19:58:48] [10/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by SubworldLibrary_0
+[19:58:48] [10/DEBUG] [tML]: Hook IL.Terraria.WorldGen::UpdateWorld() modified by SubworldLibrary_0
+[19:58:48] [10/DEBUG] [tML]: Hook IL.Terraria.Liquid::Update() modified by SubworldLibrary_0
+[19:58:48] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PreUpdate() modified by SubworldLibrary_0
+[19:58:48] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PostUpdate() modified by SubworldLibrary_0
+[19:58:48] [10/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SubworldLibrary_0
+[19:58:49] [10/DEBUG] [tML]: Hook IL.Terraria.NPC::UpdateNPC_UpdateGravity(out float) modified by SubworldLibrary_0
+[19:58:49] [10/DEBUG] [tML]: Hook IL.Terraria.WorldGen::do_worldGenCallBack(object) modified by SubworldLibrary_0
+[19:58:49] [10/DEBUG] [tML]: Hook IL.Terraria.Player::SavePlayer(PlayerFileData, bool) modified by SubworldLibrary_0
+[19:58:49] [10/DEBUG] [tML]: Hook IL.Terraria.IO.WorldFile::saveWorld(bool, bool) modified by SubworldLibrary_0
+[19:58:49] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.IO.WorldIO::Save(string, bool) modified by SubworldLibrary_0
+[19:58:49] [10/DEBUG] [tML]: Hook IL.Terraria.Main::EraseWorld(int) modified by SubworldLibrary_0
+[19:58:49] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by SubworldLibrary_0
+[19:58:50] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBlack(bool) modified by SubworldLibrary_0
+[19:58:50] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBG() modified by SubworldLibrary_0
+[19:58:50] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBackground() modified by SubworldLibrary_0
+[19:58:50] [10/DEBUG] [tML]: Hook IL.Terraria.Main::OldDrawBackground() modified by SubworldLibrary_0
+[19:58:51] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DrawUnderworldBackground(bool) modified by SubworldLibrary_0
+[19:58:51] [10/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateBiomes() modified by SubworldLibrary_0
+[19:58:51] [10/DEBUG] [tML]: Hook IL.Terraria.IngameOptions::Draw(Main, SpriteBatch) modified by SubworldLibrary_0
+[19:58:51] [10/DEBUG] [tML]: Hook IL.Terraria.Lighting::PreRenderPhase() modified by SubworldLibrary_0
+[19:58:51] [10/INFO] [tML]: Initializing: SGAmod (SGAmod: [c/65c281:Path of the Passionate]) v4.0
+[19:58:52] [10/DEBUG] [SGAmod]: SGAmod filepath defined: C:/Users/rek/Documents/My Games/Terraria/ModLoader/SGAmod
+[19:58:52] [10/DEBUG] [SGAmod]: System.UnauthorizedAccessExceptionAccess to the path 'C:/Users/rek/Documents/My Games/Terraria/ModLoader/SGAmod' is denied.
+[19:58:52] [10/DEBUG] [SGAmod]: Directory not able to be made: Nightmare Mode has been unlocked
+[19:58:52] [43/DEBUG] [SGAmod]: Hellion Theme Loaded
+[19:58:52] [10/DEBUG] [SGAmod]: Loading too many ON Detours
+[19:58:52] [10/DEBUG] [tML]: Hook On.Terraria.Player::NinjaDodge() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::CheckDrowning() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::AddBuff(int, int, bool) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::Teleport(Vector2, int, int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::Update(int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::UpdateLifeRegen() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::DropSelectedItem() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::dropItemCheck() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::ItemFitsItemFrame(Item) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::ItemFitsWeaponRack(Item) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::UpdateEquips(int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::StickyMovement() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Player::Hurt(PlayerDeathReason, int, int, bool, bool, bool, int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Main::DrawDust() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Main::DrawProjectiles() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Main::DrawPlayers() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Main::CheckMonoliths() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Main::DrawBuffIcon(int, int, int, int, int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Main::PlaySound(int, int, int, int, float, float) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Main::SetDisplayMode(int, int, bool) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::SpawnMonsterFromGate(Vector2) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.Elements.UICharacterListItem::DrawSelf(SpriteBatch) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.GameInput.PlayerInput::UpdateMainMouse() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.Elements.UIWorldListItem::.ctor(WorldFileData, int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.Elements.UIWorldListItem::DrawSelf(SpriteBatch) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.States.UIWorldSelect::.ctor() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.DataStructures.PlayerDeathReason::ByOther(int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Collision::TileCollision(Vector2, Vector2, int, int, bool, bool, int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.NPC::UpdateNPC(int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.NPC::AddBuff(int, int, bool) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.NPC::StrikeNPC(int, float, int, bool, bool, bool) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.NPC::UpdateNPC_BuffApplyDOTs() added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.UI.ItemSlot::RightClick(Item[], int, int) added by SGAmod_0
+[19:58:53] [10/DEBUG] [SGAmod]: Loading Monogame detours, these can be disabled in configs
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Main::DoUpdate(GameTime) added by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook On.Terraria.Main::Draw(GameTime) added by SGAmod_0
+[19:58:53] [10/DEBUG] [SGAmod]: Loading an unhealthy ammount of IL patches
+[19:58:53] [10/DEBUG] [tML]: Hook IL.Terraria.Main::Update(GameTime) modified by SGAmod_0
+[19:58:53] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by SGAmod_0
+[19:58:54] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by SGAmod_0
+[19:58:55] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DrawInterface_Resources_Life() modified by SGAmod_0
+[19:58:55] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DrawInterface_Resources_Breath() modified by SGAmod_0
+[19:58:55] [10/DEBUG] [tML]: Hook IL.Terraria.Player::AdjTiles() modified by SGAmod_0
+[19:58:55] [10/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.Player::CheckDrowning() modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.Player::StickyMovement() modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateManaRegen() modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.Player::TileInteractionsUse(int, int) modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.Player::ExtractinatorUse(int) modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.Player::CheckMana(Item, int, bool, bool) modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateLifeRegen() modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.Item::UpdateItem(int) modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.NPC::Collision_LavaCollision() modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.NPC::UpdateNPC_BuffApplyDOTs() modified by SGAmod_0
+[19:58:56] [10/DEBUG] [tML]: Hook IL.Terraria.NPC::NPCLoot() modified by SGAmod_0
+[19:58:57] [10/DEBUG] [tML]: Hook IL.Terraria.GameInput.LockOnHelper::Update() modified by SGAmod_0
+[19:58:57] [10/DEBUG] [tML]: Hook IL.Terraria.GameInput.LockOnHelper::SetUP() modified by SGAmod_0
+[19:58:57] [10/DEBUG] [tML]: Hook IL.Terraria.Projectile::AI_099_2() modified by SGAmod_0
+[19:58:57] [10/DEBUG] [tML]: Hook IL.Terraria.GameContent.Events.Sandstorm::EmitDust() modified by SGAmod_0
+[19:58:57] [10/DEBUG] [tML]: Hook IL.Terraria.UI.ItemSorting::Sort(Item[], Int32[]) modified by SGAmod_0
+[19:58:57] [10/DEBUG] [SGAmod]: Loading Subworld lava BG fix, these can be disabled in configs
+[19:58:57] [10/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBackground() modified by SGAmod_0
+[19:58:58] [10/DEBUG] [tML]: Hook IL.Terraria.Main::OldDrawBackground() modified by SGAmod_0
+[19:58:58] [10/DEBUG] [SGAmod]: Doing some Monomod Hook Endpoint nonsense... Jesus christ this is alot of vanilla hacking
+[19:58:58] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.PlayerHooks::PostUpdateEquips(Player) modified by SGAmod_0
+[19:58:58] [10/DEBUG] [tML]: Hook IL.Terraria.ModLoader.UI.UIModItem::Draw(SpriteBatch) modified by SGAmod_0
+[19:58:58] [10/DEBUG] [tML]: Hook IL.Terraria.Player::get_ZoneSandstorm() modified by SGAmod_0
+[19:58:58] [10/DEBUG] [tML]: Hook On.Terraria.ModLoader.PlayerHooks::UpdateBadLifeRegen(Player) added by SGAmod_0
+[19:58:58] [10/DEBUG] [tML]: Hook On.Terraria.ModLoader.PlayerHooks::ModifyHitNPC(Player, Item, NPC, ref int, ref float, ref bool) added by SGAmod_0
+[19:58:58] [10/DEBUG] [tML]: Hook On.Terraria.ModLoader.PlayerHooks::ModifyHitNPCWithProj(Projectile, NPC, ref int, ref float, ref bool, ref int) added by SGAmod_0
+[19:58:59] [10/INFO] [tML]: Initializing: VeinMiner (VeinMiner) v1.3.1
+[19:58:59] [10/INFO] [VeinMiner]: Failed to read VeinMiner's config file! Recreating config...
+[19:58:59] [10/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[19:58:59] [10/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[19:58:59] [10/WARN] [tML]: Silently Caught Exception: 
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream, CompletionDelegate completionDelegate, AsyncOperation asyncOp)
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at VeinMiner.ModOres.DownloadOreList()
+   at VeinMiner.VeinMiner.Load()
+   at Terraria.ModLoader.ModContent.<>c.<Load>b__38_0(Mod mod)
+   at Terraria.ModLoader.ModContent.LoadModContent(CancellationToken token, Action`1 loadAction)
+   at Terraria.ModLoader.ModContent.Load(CancellationToken token)
+   at Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   at Terraria.ModLoader.ModLoader.<>c__DisplayClass42_0.<BeginLoad>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
 
+[19:58:59] [10/INFO] [VeinMiner]: VeinMiner: Couldn't access online ore list, reading from file.
+[19:58:59] [10/INFO] [VeinMiner]:    at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at VeinMiner.ModOres.DownloadOreList()
+[19:58:59] [10/WARN] [tML]: Silently Caught Exception: 
+System.IO.FileNotFoundException: Could not find file 'C:\Users\showm\Documents\My Games\Terraria\ModLoader\VeinMinerDownloadedOreList'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at VeinMiner.ModOres.DownloadOreList()
+   at VeinMiner.VeinMiner.Load()
+   at Terraria.ModLoader.ModContent.<>c.<Load>b__38_0(Mod mod)
+   at Terraria.ModLoader.ModContent.LoadModContent(CancellationToken token, Action`1 loadAction)
+   at Terraria.ModLoader.ModContent.Load(CancellationToken token)
+   at Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   at Terraria.ModLoader.ModLoader.<>c__DisplayClass42_0.<BeginLoad>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
 
+[19:58:59] [10/INFO] [VeinMiner]: VeinMiner: Couldn't access saved ore list file, using a backup list embedded into the mod.
+[19:58:59] [10/INFO] [VeinMiner]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at VeinMiner.ModOres.DownloadOreList()
+[19:58:59] [10/INFO] [tML]: Initializing: WMITF (Which Mod Is This From? (WMITF)) v2.6.2
+[19:58:59] [10/INFO] [tML]: Setting up...
+[19:58:59] [10/INFO] [tML]: Loading: ModLoader (tModLoader) v0.11.8.9
+[19:58:59] [10/INFO] [tML]: Loading: Idglibrary (Idglib) v3.15
+[19:59:00] [10/INFO] [tML]: Loading: RecipeBrowser (Recipe Browser) v0.8.9.1
+[19:59:00] [10/INFO] [tML]: Loading: SubworldLibrary (Subworld Library) v1.1.1
+[19:59:00] [10/INFO] [tML]: Loading: SGAmod (SGAmod: [c/65c281:Path of the Passionate]) v4.0
+[19:59:00] [10/DEBUG] [SGAmod]: Late Changes as being applied early has caused issues with some other mods
+[19:59:00] [10/DEBUG] [tML]: Hook On.Terraria.Item::SetDefaults(int, bool) added by SGAmod_0
+[19:59:00] [10/DEBUG] [tML]: Hook On.Terraria.Projectile::SetDefaults(int) added by SGAmod_0
+[19:59:00] [10/INFO] [tML]: Loading: VeinMiner (VeinMiner) v1.3.1
+[19:59:00] [10/INFO] [tML]: Loading: WMITF (Which Mod Is This From? (WMITF)) v2.6.2
+[19:59:00] [10/INFO] [tML]: RAM usage: 1.1 GB
+[19:59:00] [10/INFO] [tML]: Adding Recipes...
+[19:59:01] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[19:59:01] [10/INFO] [tML]: Recipe Browser: Rebuilding Loot Cache (Hold shift to skip if stuck)
+[19:59:01] [10/INFO] [tML]: Adding Recipes
+[19:59:09] [21/INFO] [Terraria]: Loading World: Rek's, IsCloud=False
+[19:59:09] [21/INFO] [StatusText]: Resetting game objects
+[19:59:09] [21/INFO] [StatusText]: Loading world data
+[19:59:10] [21/INFO] [StatusText]: Settling liquids
+[19:59:10] [21/INFO] [StatusText]: Loading map data
+[19:59:10] [21/INFO] [StatusText]: Drawing map
+[19:59:11] [1/INFO] [Terraria]: Entering world with player: Rek, IsCloud=False
+[19:59:36] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[19:59:47] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[20:01:18] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[20:02:01] [5/INFO] [StatusText]: Saving map data
+[20:02:02] [5/INFO] [StatusText]: Saving world data
+[20:02:02] [5/INFO] [StatusText]: Validating world save
+[20:02:05] [29/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/listmods.php
+[20:02:06] [8/DEBUG] [tML]: Web Request: https://www.dropbox.com/s/a1iyu7h5r8ym62m/listmods.php_tModLoader v0.11.8.9_wgn.txt?dl=1
+[20:02:06] [8/DEBUG] [tML]: Web Request: https://www.dropbox.com/s/dl/a1iyu7h5r8ym62m/listmods.php_tModLoader v0.11.8.9_wgn.txt
+[20:02:07] [8/DEBUG] [tML]: Web Request: https://uc6bed270a183f5a392b59b814b9.dl.dropboxusercontent.com/cd/0/get/BwdMGNruPWYLOvoPWNLnLE3jekXOkGO3G-rWAp4Q86mIEs4FGalDV7wfYN3K1PuNQ6nxYK9gg7XFbPP3Vbb69Ds5d9BecIPEYY-todPesisunGqcR5SZB5CdJJn9PqhAxk3wBU3mdJS0gaXB4-v8QTqnBTNQfawfgTRFC0uIlAaw3rRhgAL-ml7D7fqt-oXKCCY/file?dl=1#
+[20:02:08] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ePz4Jfn.png
+[20:02:08] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/lImjIWb.png
+[20:02:08] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/mmkLHXZ.png
+[20:02:09] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/i6BwPWr.png
+[20:02:10] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/k6Lfadz.png
+[20:02:11] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/t1Ho4BS.png
+[20:02:11] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/To43dyg.png
+[20:02:11] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Uk4wIlK.png
+[20:02:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/EkQZC7H.png
+[20:02:13] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/TcGimsJ.png
+[20:02:13] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/B8tdX9Y.png
+[20:02:14] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/QYvSQ7q.png
+[20:02:14] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/0pg4yEt.png
+[20:02:15] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/LRiFhOI.png
+[20:02:16] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Trma8iK.png
+[20:02:18] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/iJMPp83.png
+[20:02:22] [42/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:02:22] [42/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:02:25] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/x2HXN8f.png
+[20:02:25] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Q1Fz5wJ.png
+[20:02:26] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/MDcAH8a.png
+[20:02:28] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/zNu1Ecu.png
+[20:02:29] [44/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:02:29] [44/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:02:31] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/5V9YKmc.png
+[20:02:32] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/s3WdsTW.png
+[20:02:32] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/pSEpBee.png
+[20:02:32] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/4jKHfGG.png
+[20:02:34] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/ShorterRespawn.tmod&tls12=y
+[20:02:34] [37/DEBUG] [tML]: Web Request: https://github.com/JavidPack/ShorterRespawn/releases/download/v1.0/ShorterRespawn.tmod
+[20:02:35] [11/DEBUG] [tML]: Web Request: https://objects.githubusercontent.com/github-production-release-asset-2e65be/62535064/83413c80-a971-11e9-83c8-829c92792fdd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20221110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221110T130234Z&X-Amz-Expires=300&X-Amz-Signature=e09f36810ebfe904ac2e56a383986837ca03dca67830dd68c054ab41ee4354cf&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=62535064&response-content-disposition=attachment%3B filename%3DShorterRespawn.tmod&response-content-type=application%2Foctet-stream
+[20:02:35] [6/INFO] [tML]: Enabling Mod: ShorterRespawn
+[20:02:36] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/IazpssG.png
+[20:02:36] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/jXdQI11.png
+[20:02:37] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/8MvEzo3.png
+[20:02:38] [41/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:02:41] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/heG8VPp.png
+[20:02:41] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/P4QrXTD.png
+[20:02:41] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/hdaCktH.png
+[20:02:42] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/UQAzgqX.png
+[20:02:45] [21/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:02:45] [21/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:02:49] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/iHydeue.png
+[20:02:51] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/67S31SL.png
+[20:02:51] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/i5MYdMS.png
+[20:02:53] [41/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:02:53] [41/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:04:12] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[20:04:13] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/gCuV8kL.png
+[20:04:14] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/9jYrD7M.png
+[20:04:41] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[20:04:43] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/8rTL3pR.png
+[20:04:43] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/YszZ0Tv.png
+[20:04:43] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/YszZ0Tv.png
+[20:04:43] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/KCYsPOk.png
+[20:04:44] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/jDrQ7EJ.png
+[20:04:45] [30/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:04:46] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ulXXjjS.png
+[20:04:46] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/mGOTqtU.png
+[20:04:47] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/qcC4ESG.png
+[20:04:47] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/AgWCWvg.png
+[20:04:47] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/pRpZDgR.png
+[20:04:47] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/E4fRaTe.png
+[20:04:48] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ToTsEnn.png
+[20:04:49] [29/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:04:57] [1/DEBUG] [tML]: Process.Start (UseShellExecute = True): "http://forums.terraria.org/index.php?threads/shadows-of-abaddon-mod.46605/" 
+[20:06:23] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[20:06:25] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/0QszzfL.png
+[20:06:26] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/lJPUFXV.png
+[20:06:26] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Tm9nTGu.png
+[20:06:26] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/PZDi96h.png
+[20:06:27] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/wJ1Bz1f.png
+[20:06:27] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ploqatC.png
+[20:06:27] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/kopDvwu.png
+[20:06:29] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/TDtB5AT.png
+[20:06:30] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/KMfizw8.png
+[20:06:30] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/EoYOSrd.png
+[20:06:30] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/gsMLEWK.png
+[20:06:30] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/q7gbREU.png
+[20:06:31] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/MNGq5HW.png
+[20:06:32] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/DUPUKml.png
+[20:06:34] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/8yUyX3W.png
+[20:06:34] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/1bAxtuD.png
+[20:06:34] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/j8xY1i9.png
+[20:06:35] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/MZQmBAS.png
+[20:06:35] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/yy5MDdG.png
+[20:06:36] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/7brN0W8.png
+[20:06:36] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/8fTLu1Z.png
+[20:06:37] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/SEzXNHd.png
+[20:06:38] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/bRlbCBI.png
+[20:06:38] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/crCC7Zr.png
+[20:06:39] [13/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:06:46] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/4llMhDd.png
+[20:06:48] [13/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:06:48] [13/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:07:47] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/6JAnqxO.png
+[20:07:47] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/jFpsp64.png
+[20:07:48] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/YufUv0Y.png
+[20:07:48] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/iPEAJeM.png
+[20:07:50] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/hd1M0Fh.png
+[20:07:50] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ERZ01UV.png
+[20:07:50] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/munD6tW.png
+[20:07:52] [15/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:07:52] [15/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:08:07] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/B4TGK2C.png
+[20:08:08] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/IbqFoN1.png
+[20:08:09] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/oMS82lF.png
+[20:08:09] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/JnbQtZd.png
+[20:08:10] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/T1SB9vA.png
+[20:08:11] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/yvpfztv.png
+[20:08:11] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/JZfAln8.png
+[20:08:11] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/8geuvKX.png
+[20:08:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/gQFEsul.png
+[20:08:13] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/BAhiOLu.png
+[20:08:15] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Z99q9MT.png
+[20:08:17] [29/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:08:17] [29/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:08:31] [1/DEBUG] [tML]: Process.Start (UseShellExecute = True): "https://forums.terraria.org/index.php?threads/more-pets-mod.60228/" 
+[20:10:07] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[20:10:09] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/lLy1SW3.png
+[20:10:09] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/5KypPy5.png
+[20:10:10] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/jbNmo3m.png
+[20:10:13] [21/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:10:42] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/oohBDis.png
+[20:10:44] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/3TMmewJ.png
+[20:10:45] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/QsvkeOr.png
+[20:10:45] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/6EvuwqH.png
+[20:10:46] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/1wEfqIB.png
+[20:10:46] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/yH9kdzm.png
+[20:10:48] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/b7nEC6w.png
+[20:10:50] [36/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:10:50] [36/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[20:10:53] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/TCzaTsr.png
+[20:10:53] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ubKRVxx.png
+[20:10:53] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/xGdh5O3.png
+[20:10:53] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/lX0186k.png
+[20:10:55] [43/INFO] [tML]: Unloading mods
+[20:10:55] [43/INFO] [tML]: Unloading: WMITF (Which Mod Is This From? (WMITF)) v2.6.2
+[20:10:55] [43/INFO] [tML]: Unloading: VeinMiner (VeinMiner) v1.3.1
+[20:10:55] [43/INFO] [tML]: Unloading: SGAmod (SGAmod: [c/65c281:Path of the Passionate]) v4.0
+[20:10:55] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.PlayerHooks::PostUpdateEquips(Player) modified by SGAmod_0
+[20:10:55] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.UI.UIModItem::Draw(SpriteBatch) modified by SGAmod_0
+[20:10:55] [43/DEBUG] [tML]: Hook IL.Terraria.Player::get_ZoneSandstorm() modified by SGAmod_0
+[20:10:58] [43/DEBUG] [tML]: Unloaded 42 hooks, 74 detours and 73 native detours from SGAmod
+[20:10:58] [43/INFO] [tML]: Unloading: SubworldLibrary (Subworld Library) v1.1.1
+[20:10:58] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PreUpdate() unmodified by SubworldLibrary_0
+[20:10:58] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PostUpdate() unmodified by SubworldLibrary_0
+[20:10:58] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.IO.WorldIO::Save(string, bool) unmodified by SubworldLibrary_0
+[20:10:58] [43/DEBUG] [tML]: Unloaded 0 hooks, 18 detours and 18 native detours from SubworldLibrary
+[20:10:58] [43/INFO] [tML]: Unloading: RecipeBrowser (Recipe Browser) v0.8.9.1
+[20:10:58] [43/DEBUG] [tML]: Unloaded 2 hooks, 2 detours and 2 native detours from RecipeBrowser
+[20:10:58] [43/INFO] [tML]: Unloading: Idglibrary (Idglib) v3.15
+[20:10:58] [43/DEBUG] [tML]: Unloaded 1 hooks, 1 detours and 1 native detours from Idglibrary
+[20:10:58] [43/INFO] [tML]: Unloading: ModLoader (tModLoader) v0.11.8.9
+[20:10:59] [43/WARN] [tML]: Idglibrary not fully unloaded during unload.
+[20:10:59] [43/WARN] [tML]: SubworldLibrary not fully unloaded during unload.
+[20:10:59] [43/WARN] [tML]: SGAmod not fully unloaded during unload.
+[20:10:59] [43/INFO] [tML]: Finding Mods...
+[20:10:59] [43/INFO] [tML]: Sandboxing: Idglibrary
+[20:10:59] [43/INFO] [tML]: Sandboxing: RecipeBrowser
+[20:10:59] [43/INFO] [tML]: Sandboxing: SubworldLibrary
+[20:10:59] [43/INFO] [tML]: Sandboxing: SGAmod
+[20:10:59] [43/INFO] [tML]: Sandboxing: ShorterRespawn
+[20:10:59] [43/INFO] [tML]: Sandboxing: VeinMiner
+[20:10:59] [43/INFO] [tML]: Sandboxing: WMITF
+[20:10:59] [43/INFO] [tML]: Instantiating Mods...
+[20:10:59] [43/DEBUG] [tML]: Hook On.Terraria.ModLoader.Mod::AutoloadItem(Type) added by SGAmod_0
+[20:11:00] [43/INFO] [tML]: Initializing: ModLoader (tModLoader) v0.11.8.9
+[20:11:00] [43/INFO] [tML]: Initializing: Idglibrary (Idglib) v3.15
+[20:11:01] [43/DEBUG] [tML]: Hook On.Terraria.Player::KillMe(PlayerDeathReason, double, int, bool) added by Idglibrary_0
+[20:11:01] [43/INFO] [tML]: Initializing: RecipeBrowser (Recipe Browser) v0.8.9.1
+[20:11:01] [43/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[20:11:01] [43/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[20:11:01] [43/INFO] [tML]: Initializing: SubworldLibrary (Subworld Library) v1.1.1
+[20:11:01] [43/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by SubworldLibrary_0
+[20:11:01] [43/DEBUG] [tML]: Hook IL.Terraria.WorldGen::UpdateWorld() modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.Liquid::Update() modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PreUpdate() modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.WorldHooks::PostUpdate() modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.NPC::UpdateNPC_UpdateGravity(out float) modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.WorldGen::do_worldGenCallBack(object) modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.Player::SavePlayer(PlayerFileData, bool) modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.IO.WorldFile::saveWorld(bool, bool) modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.IO.WorldIO::Save(string, bool) modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.Main::EraseWorld(int) modified by SubworldLibrary_0
+[20:11:02] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by SubworldLibrary_0
+[20:11:03] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBlack(bool) modified by SubworldLibrary_0
+[20:11:03] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBG() modified by SubworldLibrary_0
+[20:11:03] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBackground() modified by SubworldLibrary_0
+[20:11:04] [43/DEBUG] [tML]: Hook IL.Terraria.Main::OldDrawBackground() modified by SubworldLibrary_0
+[20:11:04] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DrawUnderworldBackground(bool) modified by SubworldLibrary_0
+[20:11:04] [43/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateBiomes() modified by SubworldLibrary_0
+[20:11:04] [43/DEBUG] [tML]: Hook IL.Terraria.IngameOptions::Draw(Main, SpriteBatch) modified by SubworldLibrary_0
+[20:11:05] [43/DEBUG] [tML]: Hook IL.Terraria.Lighting::PreRenderPhase() modified by SubworldLibrary_0
+[20:11:05] [43/INFO] [tML]: Initializing: SGAmod (SGAmod: [c/65c281:Path of the Passionate]) v4.0
+[20:11:05] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[20:11:07] [43/DEBUG] [SGAmod]: SGAmod filepath defined: C:/Users/rek/Documents/My Games/Terraria/ModLoader/SGAmod
+[20:11:07] [43/INFO] [Terraria]: Loaded 7000 vanilla assets
+[20:11:07] [43/DEBUG] [SGAmod]: System.UnauthorizedAccessExceptionAccess to the path 'C:/Users/rek/Documents/My Games/Terraria/ModLoader/SGAmod' is denied.
+[20:11:07] [43/DEBUG] [SGAmod]: Directory not able to be made: Nightmare Mode has been unlocked
+[20:11:07] [48/DEBUG] [SGAmod]: Hellion Theme Loaded
+[20:11:07] [43/DEBUG] [SGAmod]: Loading too many ON Detours
+[20:11:07] [43/DEBUG] [tML]: Hook On.Terraria.Player::NinjaDodge() added by SGAmod_0
+[20:11:07] [43/DEBUG] [tML]: Hook On.Terraria.Player::CheckDrowning() added by SGAmod_0
+[20:11:07] [43/DEBUG] [tML]: Hook On.Terraria.Player::AddBuff(int, int, bool) added by SGAmod_0
+[20:11:07] [43/DEBUG] [tML]: Hook On.Terraria.Player::Teleport(Vector2, int, int) added by SGAmod_0
+[20:11:07] [43/DEBUG] [tML]: Hook On.Terraria.Player::Update(int) added by SGAmod_0
+[20:11:07] [43/DEBUG] [tML]: Hook On.Terraria.Player::UpdateLifeRegen() added by SGAmod_0
+[20:11:07] [43/DEBUG] [tML]: Hook On.Terraria.Player::DropSelectedItem() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Player::dropItemCheck() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Player::ItemFitsItemFrame(Item) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Player::ItemFitsWeaponRack(Item) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Player::UpdateEquips(int) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Player::StickyMovement() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Player::Hurt(PlayerDeathReason, int, int, bool, bool, bool, int) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Main::DrawDust() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Main::DrawProjectiles() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Main::DrawPlayers() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Main::CheckMonoliths() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Main::DrawBuffIcon(int, int, int, int, int) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Main::PlaySound(int, int, int, int, float, float) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Main::SetDisplayMode(int, int, bool) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::SpawnMonsterFromGate(Vector2) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.Elements.UICharacterListItem::DrawSelf(SpriteBatch) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.GameInput.PlayerInput::UpdateMainMouse() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.Elements.UIWorldListItem::.ctor(WorldFileData, int) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.Elements.UIWorldListItem::DrawSelf(SpriteBatch) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.GameContent.UI.States.UIWorldSelect::.ctor() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.DataStructures.PlayerDeathReason::ByOther(int) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Collision::TileCollision(Vector2, Vector2, int, int, bool, bool, int) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.NPC::UpdateNPC(int) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.NPC::AddBuff(int, int, bool) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.NPC::StrikeNPC(int, float, int, bool, bool, bool) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.NPC::UpdateNPC_BuffApplyDOTs() added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.UI.ItemSlot::RightClick(Item[], int, int) added by SGAmod_0
+[20:11:08] [43/DEBUG] [SGAmod]: Loading Monogame detours, these can be disabled in configs
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Main::DoUpdate(GameTime) added by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook On.Terraria.Main::Draw(GameTime) added by SGAmod_0
+[20:11:08] [43/DEBUG] [SGAmod]: Loading an unhealthy ammount of IL patches
+[20:11:08] [43/DEBUG] [tML]: Hook IL.Terraria.Main::Update(GameTime) modified by SGAmod_0
+[20:11:08] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by SGAmod_0
+[20:11:09] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by SGAmod_0
+[20:11:10] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DrawInterface_Resources_Life() modified by SGAmod_0
+[20:11:10] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DrawInterface_Resources_Breath() modified by SGAmod_0
+[20:11:10] [43/DEBUG] [tML]: Hook IL.Terraria.Player::AdjTiles() modified by SGAmod_0
+[20:11:10] [43/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SGAmod_0
+[20:11:11] [43/DEBUG] [tML]: Hook IL.Terraria.Player::CheckDrowning() modified by SGAmod_0
+[20:11:11] [43/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SGAmod_0
+[20:11:11] [43/DEBUG] [tML]: Hook IL.Terraria.Player::StickyMovement() modified by SGAmod_0
+[20:11:11] [43/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateManaRegen() modified by SGAmod_0
+[20:11:11] [43/DEBUG] [tML]: Hook IL.Terraria.Player::TileInteractionsUse(int, int) modified by SGAmod_0
+[20:11:11] [43/DEBUG] [tML]: Hook IL.Terraria.Player::ExtractinatorUse(int) modified by SGAmod_0
+[20:11:11] [43/DEBUG] [tML]: Hook IL.Terraria.Player::CheckMana(Item, int, bool, bool) modified by SGAmod_0
+[20:11:11] [43/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateLifeRegen() modified by SGAmod_0
+[20:11:11] [43/DEBUG] [tML]: Hook IL.Terraria.Item::UpdateItem(int) modified by SGAmod_0
+[20:11:12] [43/DEBUG] [tML]: Hook IL.Terraria.NPC::Collision_LavaCollision() modified by SGAmod_0
+[20:11:12] [43/DEBUG] [tML]: Hook IL.Terraria.NPC::UpdateNPC_BuffApplyDOTs() modified by SGAmod_0
+[20:11:12] [43/DEBUG] [tML]: Hook IL.Terraria.NPC::NPCLoot() modified by SGAmod_0
+[20:11:12] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[20:11:13] [43/DEBUG] [tML]: Hook IL.Terraria.GameInput.LockOnHelper::Update() modified by SGAmod_0
+[20:11:13] [43/DEBUG] [tML]: Hook IL.Terraria.GameInput.LockOnHelper::SetUP() modified by SGAmod_0
+[20:11:13] [43/DEBUG] [tML]: Hook IL.Terraria.Projectile::AI_099_2() modified by SGAmod_0
+[20:11:13] [43/DEBUG] [tML]: Hook IL.Terraria.GameContent.Events.Sandstorm::EmitDust() modified by SGAmod_0
+[20:11:13] [43/DEBUG] [tML]: Hook IL.Terraria.UI.ItemSorting::Sort(Item[], Int32[]) modified by SGAmod_0
+[20:11:13] [43/DEBUG] [SGAmod]: Loading Subworld lava BG fix, these can be disabled in configs
+[20:11:13] [43/DEBUG] [tML]: Hook IL.Terraria.Main::DrawBackground() modified by SGAmod_0
+[20:11:13] [43/DEBUG] [tML]: Hook IL.Terraria.Main::OldDrawBackground() modified by SGAmod_0
+[20:11:14] [43/DEBUG] [SGAmod]: Doing some Monomod Hook Endpoint nonsense... Jesus christ this is alot of vanilla hacking
+[20:11:14] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.PlayerHooks::PostUpdateEquips(Player) modified by SGAmod_0
+[20:11:14] [43/DEBUG] [tML]: Hook IL.Terraria.ModLoader.UI.UIModItem::Draw(SpriteBatch) modified by SGAmod_0
+[20:11:14] [43/DEBUG] [tML]: Hook IL.Terraria.Player::get_ZoneSandstorm() modified by SGAmod_0
+[20:11:14] [43/DEBUG] [tML]: Hook On.Terraria.ModLoader.PlayerHooks::UpdateBadLifeRegen(Player) added by SGAmod_0
+[20:11:14] [43/DEBUG] [tML]: Hook On.Terraria.ModLoader.PlayerHooks::ModifyHitNPC(Player, Item, NPC, ref int, ref float, ref bool) added by SGAmod_0
+[20:11:14] [43/DEBUG] [tML]: Hook On.Terraria.ModLoader.PlayerHooks::ModifyHitNPCWithProj(Projectile, NPC, ref int, ref float, ref bool, ref int) added by SGAmod_0
+[20:11:14] [43/INFO] [tML]: Initializing: ShorterRespawn (Shorter Respawn Time) v1.0
+[20:11:14] [43/INFO] [tML]: Initializing: VeinMiner (VeinMiner) v1.3.1
+[20:11:15] [43/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[20:11:15] [43/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[20:11:15] [43/WARN] [tML]: Silently Caught Exception: 
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at VeinMiner.ModOres.DownloadOreList()
+   at VeinMiner.VeinMiner.Load()
+   at Terraria.ModLoader.ModContent.<>c.<Load>b__38_0(Mod mod)
+   at Terraria.ModLoader.ModContent.LoadModContent(CancellationToken token, Action`1 loadAction)
+   at Terraria.ModLoader.ModContent.Load(CancellationToken token)
+   at Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   at Terraria.ModLoader.ModLoader.<>c__DisplayClass42_0.<BeginLoad>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+[20:11:15] [43/INFO] [VeinMiner]: VeinMiner: Couldn't access online ore list, reading from file.
+[20:11:15] [43/INFO] [VeinMiner]:    at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at VeinMiner.ModOres.DownloadOreList()
+[20:11:15] [43/INFO] [VeinMiner]: VeinMiner: Couldn't access saved ore list file, using a backup list embedded into the mod.
+[20:11:15] [43/INFO] [VeinMiner]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at VeinMiner.ModOres.DownloadOreList()
+[20:11:15] [43/INFO] [tML]: Initializing: WMITF (Which Mod Is This From? (WMITF)) v2.6.2
+[20:11:15] [43/INFO] [tML]: Setting up...
+[20:11:16] [43/INFO] [tML]: Loading: ModLoader (tModLoader) v0.11.8.9
+[20:11:16] [43/INFO] [tML]: Loading: Idglibrary (Idglib) v3.15
+[20:11:16] [43/INFO] [tML]: Loading: RecipeBrowser (Recipe Browser) v0.8.9.1
+[20:11:16] [43/INFO] [tML]: Loading: SubworldLibrary (Subworld Library) v1.1.1
+[20:11:16] [43/INFO] [tML]: Loading: SGAmod (SGAmod: [c/65c281:Path of the Passionate]) v4.0
+[20:11:16] [43/DEBUG] [SGAmod]: Late Changes as being applied early has caused issues with some other mods
+[20:11:16] [43/DEBUG] [tML]: Hook On.Terraria.Item::SetDefaults(int, bool) added by SGAmod_0
+[20:11:16] [43/DEBUG] [tML]: Hook On.Terraria.Projectile::SetDefaults(int) added by SGAmod_0
+[20:11:16] [43/INFO] [tML]: Loading: ShorterRespawn (Shorter Respawn Time) v1.0
+[20:11:17] [43/INFO] [tML]: Loading: VeinMiner (VeinMiner) v1.3.1
+[20:11:17] [43/INFO] [tML]: Loading: WMITF (Which Mod Is This From? (WMITF)) v2.6.2
+[20:11:17] [43/INFO] [tML]: RAM usage: 1.3 GB
+[20:11:17] [43/INFO] [tML]: Adding Recipes...
+[20:11:18] [43/INFO] [tML]: Recipe Browser: Rebuilding Loot Cache (Hold shift to skip if stuck)
+[20:11:18] [43/INFO] [tML]: Adding Recipes
+[20:11:22] [30/INFO] [Terraria]: Loading World: Rek's, IsCloud=False
+[20:11:22] [30/INFO] [StatusText]: Resetting game objects
+[20:11:23] [30/INFO] [StatusText]: Loading world data
+[20:11:23] [30/INFO] [StatusText]: Settling liquids
+[20:11:23] [30/INFO] [StatusText]: Loading map data
+[20:11:23] [30/INFO] [StatusText]: Drawing map
+[20:11:24] [1/INFO] [Terraria]: Entering world with player: Rek, IsCloud=False
+[20:13:58] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1366, Height: 768, Fullscreen: True, Display: \\.\DISPLAY1
+[20:14:15] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:15] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:15] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:15] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:15] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:15] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:15] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:15] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:16] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:49] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:50] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:14:50] [1/DEBUG] [SGAmod]: Copper Wraith: SP Craft Warning
+[20:18:34] [30/INFO] [StatusText]: Saving world data
+[20:18:34] [30/INFO] [StatusText]: Validating world save
+[20:28:34] [21/INFO] [StatusText]: Saving world data
+[20:28:34] [21/INFO] [StatusText]: Validating world save
+[20:30:37] [24/INFO] [StatusText]: Saving map data
+[20:30:37] [24/INFO] [StatusText]: Saving world data
+[20:30:38] [24/INFO] [StatusText]: Validating world save
