@@ -28,7 +28,7 @@
   "LightingMode": 0,
   "BackgroundParallax": 60,
   "ShowItemText": true,
-  "LastLaunchedVersion": 276,
+  "LastLaunchedVersion": 279,
   "ClientUUID": "f9406c2e-ec0b-4a6e-8cca-6f20cbddd389",
   "UseSmartCursorForCommonBlocks": false,
   "UseSmartAxeAfterSmartPickaxe": false,
@@ -69,7 +69,6 @@
   "Zoom": 1.0,
   "UIScale": 0.98,
   "MapScale": 1.0,
-  "ResourcePacks": [],
   "FlashIconForEvents": "All",
   "Display": "\\\\.\\DISPLAY1",
   "DisplayScreen": "\\\\.\\DISPLAY1",
@@ -78,11 +77,9 @@
   "HoverControlMode": 0,
   "WaterfallDrawLimit": 1000,
   "DisableIntenseVisualEffects": false,
-  "PlayerResourcesSet": "New",
   "MinimapFrame": "TwigLeaf",
   "ShowBossBarHealthText": true,
-  "FilterLimit": 16,
-  "FilterPriorityThreshold": "VeryLow",
+  "PlayerResourcesSet": "New",
   "RGBUpdatesPerSecond": 45.0,
   "UseRazerRGB": true,
   "RazerColorProfile": {
@@ -235,5 +232,9 @@
       "G": 1.0,
       "B": 1.0
     }
-  }
+  },
+  "FilterLimit": 16,
+  "FilterPriorityThreshold": "VeryLow",
+  "CloudSavingDefault": false,
+  "ResourcePacks": []
 }
